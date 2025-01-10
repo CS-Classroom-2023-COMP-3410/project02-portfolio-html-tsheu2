@@ -1,0 +1,51 @@
+<!-- contact/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body style="background-color: beige;">
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <!-- Navigation to other pages -->
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about/about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="../performance/performance.html">Performance Comparison</a></li>
+                <li><a href="../brands/brands.html">Brands</a></li>
+                <li><a href="../gallery/gallery.html">Gallery</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Contact form-->
+        <h3>Contact me with thoughts, questions, or opinions.</h3>
+        <form action="mailto:TJ@example.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <button type="submit">Send Email</button>
+        </form>
+    </main>
+    <!--Footer For Web Links-->
+    <footer>
+        <p>2025 - TJ - Car Enthusiast</p>
+        <p>
+            <a href="https://www.bmwusa.com">BMW Website</a> |
+            <a href="https://www.audiusa.com">Audi Website</a> |
+            <a href="https://www.mbusa.com">Mercedes-Benz Website</a>
+        </p>
+    </footer>
+</body>
+</html>
